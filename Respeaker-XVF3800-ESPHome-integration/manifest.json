@@ -1,0 +1,23 @@
+{
+  "name": "reSpeaker XVF3800",
+  "builds": [
+    {
+      "chipFamily": "ESP32-S3",
+      "parts": [
+        {
+          "path": "firmware-esp32s3-2026.11.1.bin",
+          "offset": 0
+        }
+      ],
+      "ota": {
+        "path": "firmware-esp32s3-2026.11.1.ota.bin",
+        "md5": "586db43ada2f603cd5803c024ec9bac2",
+        "sha256": "bc925f1291f825db0d2242ceb3c410391325d1219e4fcd7a90989690adbf3a7f",
+        "summary": "Respeaker XVF3800 Satellite 2026.11.1",
+        "release_url": "https://github.com/formatBCE/Respeaker-ESPHome-integration/releases/tag/2026.11.1"
+      }
+    }
+  ],
+  "version": "2026.11.1",
+  "home_assistant_domain": "esphome"
+}

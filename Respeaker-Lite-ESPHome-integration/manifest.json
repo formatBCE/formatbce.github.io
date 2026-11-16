@@ -1,0 +1,23 @@
+{
+  "name": "ReSpeaker Lite",
+  "builds": [
+    {
+      "chipFamily": "ESP32-S3",
+      "parts": [
+        {
+          "path": "firmware-esp32s3-2026.11.1.bin",
+          "offset": 0
+        }
+      ],
+      "ota": {
+        "path": "firmware-esp32s3-2026.11.1.ota.bin",
+        "md5": "ab8ee43053bf5b91cb419b9fc2144b65",
+        "sha256": "57bf514b5efd8964886c51a89c90a76da199b87a731cafac0ef1880d92d2db90",
+        "summary": "Respeaker Lite Satellite 2026.11.1",
+        "release_url": "https://github.com/formatBCE/Respeaker-ESPHome-integration/releases/tag/2026.11.1"
+      }
+    }
+  ],
+  "version": "2026.11.1",
+  "home_assistant_domain": "esphome"
+}

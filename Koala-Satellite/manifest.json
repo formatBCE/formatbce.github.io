@@ -1,0 +1,23 @@
+{
+  "name": "Koala Satellite",
+  "builds": [
+    {
+      "chipFamily": "ESP32-S3",
+      "parts": [
+        {
+          "path": "firmware-esp32s3-2026.11.1.bin",
+          "offset": 0
+        }
+      ],
+      "ota": {
+        "path": "firmware-esp32s3-2026.11.1.ota.bin",
+        "md5": "f634b0d7053edb4753131340393ddc3c",
+        "sha256": "fd60708d038c5fef65e0cd13dac4f4506af1ded07215475d58336ec2655891f2",
+        "summary": "Koala Satellite 2026.11.1",
+        "release_url": "https://github.com/formatBCE/Respeaker-ESPHome-integration/releases/tag/2026.11.1"
+      }
+    }
+  ],
+  "version": "2026.11.1",
+  "home_assistant_domain": "esphome"
+}
